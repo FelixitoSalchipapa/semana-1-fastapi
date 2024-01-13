@@ -7,6 +7,9 @@ def suma(numero1: int, numero2: str):
     else:
         print("El número es: ", suma)
         print("Es impar")
-        print("Es impar")
-        print("Es impar")
-suma(4, 's')
+
+a = int(input("Digite el primer número: "))
+b = int(input("Digite el segundo número: "))
+
+suma(a, b)
+
